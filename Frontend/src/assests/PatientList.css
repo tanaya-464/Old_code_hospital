@@ -1,0 +1,68 @@
+/* src/components/PatientList.css */
+
+.container {
+    margin-top: 20px;
+}
+
+.paper {
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333; /* Darker text for better readability */
+}
+
+.form-title {
+    margin-bottom: 15px;
+    color: #333; /* Bootstrap primary color */
+}
+
+.text-field {
+    margin-bottom: 15px;
+}
+
+.add-button {
+    margin-top: 20px;
+    background-color: #28a745; /* Green color for the button */
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.patient-list-title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #343a40; /* Darker text for titles */
+}
+
+.patient-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.patient-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.no-patients {
+    text-align: center;
+    color: gray;
+}
+
+.error-text {
+    color: #dc3545; /* Bootstrap danger color for error messages */
+}
+
+.success-text {
+    color: #28a745; /* Bootstrap success color for success messages */
+}
